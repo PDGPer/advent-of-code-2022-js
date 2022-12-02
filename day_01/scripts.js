@@ -1,7 +1,7 @@
 // https://adventofcode.com/2022/day/1
 
 // To keep the string as close to the original as possible, created it as template literals.
-const calorieCount = `2936
+const input = `2936
 2154
 1578
 4820
@@ -2246,7 +2246,7 @@ const calorieCount = `2936
 `;
 
 // Split the string by double spaces, separating the calorie count of each elf.
-const splitByElf = calorieCount.split(/\n\n/);
+const splitByElf = input.split(/\n\n/);
 console.log("Calories split by the elf carrying them:", splitByElf);
 
 // Split the calorie count of each elf by individual food items and convert strings to numbers.
