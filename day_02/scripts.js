@@ -2582,8 +2582,9 @@ function addScores(array) {
   }
   return total;
 }
-console.log(addScores(trimmedInput));
+console.log("Added scores are:", addScores(trimmedInput));
 
+// As before, but for the desired plays.
 function addDesiredScores(array) {
   let total = 0;
   for (let i = 0; i < array.length; i = i + 2) {
@@ -2591,4 +2592,4 @@ function addDesiredScores(array) {
   }
   return total;
 }
-console.log(addDesiredScores(trimmedInput));
+console.log("Added desired scores are:", addDesiredScores(trimmedInput));
