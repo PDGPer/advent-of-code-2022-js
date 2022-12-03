@@ -311,7 +311,7 @@ function findRepeatedChars(array) {
 
   // Splits the "rucksack" string by the middle and binds both halves.
   for (let i = 0; i < array.length; i++) {
-    let halfPoint = Math.floor(array[i].length / 2);
+    let halfPoint = array[i].length / 2;
     let firstHalf = array[i].slice(0, halfPoint);
     let secondHalf = array[i].slice(halfPoint, array[i].length);
 
