@@ -399,7 +399,7 @@ console.log("Sum of priorities is:", sumPriorities(repeatedCharsArray));
 function findBadges(array) {
   let repeatedChars = [];
 
-  // Iterates through every other three string of the array.
+  // Iterates through every other three strings of the array.
   for (let i = 0; i < array.length; i = i + 3) {
     // Finds if any characters in the first string of the current group of three
     // repeats in the other two and pushes them to an array.
